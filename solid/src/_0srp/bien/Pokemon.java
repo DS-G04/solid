@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package _0srp.mal;
+package _0srp.bien;
+
+import _0srp.mal.*;
 
 /**
  *
@@ -25,15 +27,7 @@ public  class Pokemon {
         this.habilidad = habilidad;
         this.porcentajeVida=100;
     }
-    
-    /* Esta no es una responsabilidad de un pokemon*/
-    public void curar(){
-        this.porcentajeVida=100;
-    }
-    
-   
-    
-    
+ 
     public String getNombre() {
         return nombre;
     }
